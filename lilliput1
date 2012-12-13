@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh pi@`wget -qO- http://dns.quickcodr.com/?who=lilliput1`
