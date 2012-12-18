@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ssh pi@`wget -qO- http://dns.quickcodr.com/?who=erebus.remote`
+ssh -p 2212 chris@`wget -qO- http://dns.quickcodr.com/?who=erebus.remote`
